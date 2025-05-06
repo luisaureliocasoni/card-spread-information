@@ -4,7 +4,9 @@
   "description": "Repository to provide information about card spreads on international use",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate:brl": "ajv -s validation/brl.json -d data/brl.json",
+    "validate:usd": "ajv -s validation/usd.json -d data/usd.json"
   },
   "author": "Luis A. C.",
   "license": "UNLICENSED",
