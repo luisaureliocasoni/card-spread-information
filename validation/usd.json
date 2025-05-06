@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "brazilianIof": {
+      "type": "object",
+      "properties": {
+        "buy": {
+          "type": "number",
+          "minimum": 0
+        },
+        "sell": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "buy",
+        "sell"
+      ]
+    },
+    "cards": {
+      "type": "array",
+      "minItems": 1,
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "spreadBuy": {
+              "type": "number",
+              "minimum": 0
+            },
+            "spreadOtherMoney": {
+              "type": "number",
+              "minimum": 0
+            },
+            "color": {
+              "type": "string",
+              "pattern": "^#[0-9A-Fa-f]{6}[0-9A-Fa-f]{0,2}$"
+            },
+            "text-color": {
+              "type": "string",
+              "pattern": "^#[0-9A-Fa-f]{6}[0-9A-Fa-f]{0,2}$"
+            }
+          },
+          "required": [
+            "name",
+            "spreadBuy",
+            "spreadOtherMoney",
+            "color"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "brazilianIof",
+    "cards"
+  ]
+}

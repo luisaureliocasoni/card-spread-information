@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "brazilianIof": {
+      "type": "object",
+      "properties": {
+        "use": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "use"
+      ]
+    },
+    "cards": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "spread": {
+              "type": "number",
+              "minimum": 0
+            },
+            "color": {
+              "type": "string",
+              "pattern": "^#[0-9A-Fa-f]{6}[0-9A-Fa-f]{0,2}$"
+            },
+            "text-color": {
+              "type": "string",
+              "pattern": "^#[0-9A-Fa-f]{6}[0-9A-Fa-f]{0,2}$"
+            },
+            "rate": {
+              "type": "string",
+              "enum": [
+                "commercial",
+                "PTAX"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "spread",
+            "color",
+            "rate"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "brazilianIof",
+    "cards"
+  ]
+}

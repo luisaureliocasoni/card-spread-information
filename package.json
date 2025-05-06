@@ -1,0 +1,14 @@
+{
+  "name": "card-spread-information",
+  "version": "1.0.0",
+  "description": "Repository to provide information about card spreads on international use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis A. C.",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ajv-cli": "^5.0.0"
+  }
+}

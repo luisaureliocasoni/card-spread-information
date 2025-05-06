@@ -1,0 +1,194 @@
+{
+    "brazilianIof": {
+        "use": 3.38
+    },
+    "cards": [
+        {
+            "name": "Safra",
+            "spread": 7.0,
+            "color": "#00003c",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Santander",
+            "spread": 6.0,
+            "color": "#ec0000",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Banco PAN",
+            "spread": 6.0,
+            "color": "#06b2fc",
+            "rate": "PTAX"
+        },
+        {
+            "name": "BTG Pactual",
+            "spread": 6.0,
+            "color": "#1c233b",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Itaú",
+            "spread": 5.5,
+            "color": "#ff6200",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Credicard",
+            "spread": 5.5,
+            "color": "#020b5a",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Bradesco",
+            "spread": 5.3,
+            "color": "#cc092f",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Ágora",
+            "spread": 5.3,
+            "color": "#01464d",
+            "rate": "PTAX"
+        },
+        {
+            "name": "C6 Bank",
+            "spread": 5.25,
+            "color": "#121212",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Next",
+            "spread": 5.0,
+            "color": "#00ff5f",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Banco do Nordeste",
+            "spread": 5.0,
+            "color": "#a6193c",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Pic Pay",
+            "spread": 5.0,
+            "color": "#11c76f",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Porto Bank",
+            "spread": 4.99,
+            "color": "#00a1fc",
+            "rate": "PTAX"
+        }, 
+        {
+            "name": "Banco do Brasil",
+            "spread": 4.0,
+            "color": "#fcfc30",
+            "text-color": "#465eff",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Banestes",
+            "spread": 4.0,
+            "color": "#064a8c",
+            "rate": "PTAX"
+        },
+        {
+            "name": "BV",
+            "spread": 4.0,
+            "color": "#2137c8",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Nubank",
+            "spread": 4.0,
+            "color": "#820ad1",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Inter",
+            "spread": 4.0,
+            "color": "#f27321",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Neon",
+            "spread": 4.0,
+            "color": "#0f92ff",
+            "rate": "PTAX"
+        },
+        {
+            "name": "BRB",
+            "spread": 4.0,
+            "color": "#023e7c",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Nomad Explorer",
+            "spread": 4.0,
+            "color": "#ffce00",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Genial",
+            "spread": 4.0,
+            "color": "#0d1d96",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Caixa",
+            "spread": 4.0,
+            "color": "#005fa9",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Banrisul",
+            "spread": 3.0,
+            "color": "#000051",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Sicredi",
+            "spread": 1.0,
+            "color": "#64c832",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Sisprime",
+            "spread": 0.0,
+            "color": "#0047bb",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Sicoob",
+            "spread": 0.0,
+            "color": "#003641",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Unicred",
+            "spread": 0.0,
+            "color": "#b9a557",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Banese",
+            "spread": 0.0,
+            "color": "#256136",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Cresol",
+            "spread": 0.0,
+            "color": "#f58220",
+            "rate": "PTAX"
+        },
+        {
+            "name": "Uniprime",
+            "spread": 0.0,
+            "color": "#004d6b",
+            "rate": "PTAX"
+        }
+    ]
+}
