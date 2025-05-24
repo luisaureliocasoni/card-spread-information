@@ -1,14 +1,14 @@
 {
     "brazilianIof": {
-        "buy": 1.1,
-        "sell": 0.38
+        "buy": 3.5,
+        "sell": 1.1
     },
     "cards": [
         {
             "name": "Nomad",
             "color": "#ffce00",
             "spreadBuy": 2.0,
-            "spreadOtherMoney": 2.0
+            "spreadOtherMoney": 0.0
         },
         {
             "name": "C6 Bank",
