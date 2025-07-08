@@ -1,0 +1,31 @@
+# DISALLOW EVERYTHING
+User-agent: *
+Disallow: /
+
+# SEO E ANALYTICS TOOLS
+User-agent: 008
+User-agent: BrightEdge Crawler
+User-agent: DataForSeoBot
+User-agent: Pandalytics
+User-agent: proximic
+User-agent: Screaming Frog SEO Spider
+User-agent: SemrushBot*
+User-agent: ZoominfoBot
+User-agent: ZoomBot
+Disallow: /
+
+# CONTENT AGGREGATORS E SCRAPERS
+User-agent: ADmantX
+User-agent: Barkrowler
+User-agent: Buck
+User-agent: coccocbot-web
+User-agent: Dataprovider.com
+User-agent: EasyBib AutoCite
+User-agent: newspaper
+User-agent: Scrapy
+User-agent: um-LN
+Disallow: /
+
+# MOBILE ADS BOTS
+User-agent: AdsBot-Google-Mobile
+Disallow: /
