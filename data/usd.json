@@ -8,19 +8,22 @@
             "name": "Nomad",
             "color": "#ffce00",
             "spreadBuy": 2.0,
-            "spreadOtherMoney": 0.0
+            "spreadOtherMoney": 0.0,
+            "brand": "visa"
         },
         {
             "name": "C6 Bank",
             "color": "#121212",
             "spreadBuy": 0.9,
-            "spreadOtherMoney": 2.0
+            "spreadOtherMoney": 2.0,
+            "brand": "mastercard"
         },
         {
             "name": "GO!multi (ex-BS2)",
             "color": "#3257cc",
             "spreadBuy": 2.0,
-            "spreadOtherMoney": 2.0
+            "spreadOtherMoney": 2.0,
+            "brand": "mastercard"
         }
     ]
 }
