@@ -12,6 +12,13 @@
             "brand": "visa"
         },
         {
+            "name": "Wise ⚠",
+            "color": "#9fe870",
+            "spreadBuy": 1.5,
+            "spreadOtherMoney": 0.5,
+            "brand": "visa"
+        },
+        {
             "name": "C6 Bank",
             "color": "#121212",
             "spreadBuy": 0.9,
