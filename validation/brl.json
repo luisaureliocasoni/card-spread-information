@@ -26,9 +26,23 @@
               "type": "number",
               "minimum": 0
             },
+            "spreadOtherMoney": {
+              "type": "number",
+              "minimum": 0
+            },
             "color": {
               "type": "string",
               "pattern": "^#[0-9A-Fa-f]{6}[0-9A-Fa-f]{0,2}$"
+            },
+            "brands": {
+              "type": "string"
+            },
+            "receivesInMoney": {
+              "type": "string",
+              "enum": [
+                "USD",
+                "ORIGIN"
+              ]
             },
             "text-color": {
               "type": "string",

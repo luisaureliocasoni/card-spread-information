@@ -55,7 +55,10 @@
             "name": "C6 Bank",
             "spread": 5.25,
             "color": "#121212",
-            "rate": "PTAX"
+            "rate": "PTAX",
+            "brands": "Mastercard",
+            "spreadOtherMoney": 1.5,
+            "receivesInMoney": "USD"
         },
         {
             "name": "Next",
@@ -73,7 +76,8 @@
             "name": "Pic Pay",
             "spread": 5.0,
             "color": "#11c76f",
-            "rate": "PTAX"
+            "rate": "PTAX",
+            "brands": "Mastercard"
         },
         {
             "name": "Porto Bank",
@@ -104,19 +108,24 @@
             "name": "Nubank",
             "spread": 4.0,
             "color": "#820ad1",
-            "rate": "PTAX"
+            "rate": "PTAX",
+            "brands": "Mastercard",
+            "spreadOtherMoney": 1.5,
+            "receivesInMoney": "USD"
         },
         {
             "name": "Inter",
             "spread": 4.0,
             "color": "#f27321",
-            "rate": "PTAX"
+            "rate": "PTAX",
+            "brands": "Mastercard"
         },
         {
             "name": "Neon",
             "spread": 4.0,
             "color": "#0f92ff",
-            "rate": "PTAX"
+            "rate": "PTAX",
+            "brands": "Visa"
         },
         {
             "name": "BRB",
@@ -128,7 +137,8 @@
             "name": "Nomad Explorer",
             "spread": 4.0,
             "color": "#ffce00",
-            "rate": "PTAX"
+            "rate": "PTAX",
+            "brands": "Visa"
         },
         {
             "name": "Genial",
