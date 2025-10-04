@@ -199,6 +199,13 @@
             "spread": 0.0,
             "color": "#004d6b",
             "rate": "PTAX"
+        },
+        {
+            "name": "Will Bank",
+            "spread": 4.0,
+            "color": "#ffd900",
+            "rate": "PTAX",
+            "brands": "Mastercard"
         }
     ]
 }
