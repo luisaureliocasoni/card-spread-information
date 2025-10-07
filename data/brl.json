@@ -206,6 +206,15 @@
             "color": "#ffd900",
             "rate": "PTAX",
             "brands": "Mastercard"
+        },
+        {
+            "name": "Mercado Pago",
+            "spread": 0.0,
+            "color": "#ffe600",
+            "rate": "PTAX",
+            "brands": "Visa",
+            "spreadOtherMoney": 0,
+            "receivesInMoney": "USD"
         }
     ]
 }
