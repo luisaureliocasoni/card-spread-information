@@ -162,7 +162,9 @@
             "name": "Sicredi",
             "spread": 1.0,
             "color": "#64c832",
-            "rate": "PTAX"
+            "rate": "PTAX",
+            "spreadOtherMoney": 0.4,
+            "receivesInMoney": "USD"
         },
         {
             "name": "Sisprime",
