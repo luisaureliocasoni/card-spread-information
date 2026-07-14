@@ -9,28 +9,40 @@
             "color": "#ffce00",
             "spreadBuy": 2.0,
             "spreadOtherMoney": 0.0,
-            "brand": "visa"
+            "brand": "visa",
+            "hasIOF": true
         },
         {
             "name": "Wise ⚠",
             "color": "#9fe870",
             "spreadBuy": 1.5,
             "spreadOtherMoney": 0.5,
-            "brand": "visa"
+            "brand": "visa",
+            "hasIOF": true
         },
         {
             "name": "C6 Bank",
             "color": "#121212",
             "spreadBuy": 0.9,
             "spreadOtherMoney": 2.0,
-            "brand": "mastercard"
+            "brand": "mastercard",
+            "hasIOF": true
         },
         {
             "name": "GO!multi (ex-BS2)",
             "color": "#3257cc",
             "spreadBuy": 2.0,
             "spreadOtherMoney": 2.0,
-            "brand": "mastercard"
+            "brand": "mastercard",
+            "hasIOF": true
+        },
+        {
+            "name": "Mercado Pago (MELI Dólar)",
+            "color": "#3257cc",
+            "spreadBuy": 1.0,
+            "spreadOtherMoney": 0.0,
+            "brand": "visa",
+            "hasIOF": false
         }
     ]
 }

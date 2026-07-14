@@ -11,6 +11,6 @@
   "author": "Luis A. C.",
   "license": "UNLICENSED",
   "dependencies": {
-    "ajv-cli": "^5.0.0"
+    "ajv-cli": "5.0.0"
   }
 }
