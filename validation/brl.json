@@ -15,55 +15,53 @@
     },
     "cards": {
       "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "name": {
-              "type": "string"
-            },
-            "spread": {
-              "type": "number",
-              "minimum": 0
-            },
-            "spreadOtherMoney": {
-              "type": "number",
-              "minimum": 0
-            },
-            "color": {
-              "type": "string",
-              "pattern": "^#[0-9A-Fa-f]{6}[0-9A-Fa-f]{0,2}$"
-            },
-            "brands": {
-              "type": "string"
-            },
-            "receivesInMoney": {
-              "type": "string",
-              "enum": [
-                "USD",
-                "ORIGIN"
-              ]
-            },
-            "text-color": {
-              "type": "string",
-              "pattern": "^#[0-9A-Fa-f]{6}[0-9A-Fa-f]{0,2}$"
-            },
-            "rate": {
-              "type": "string",
-              "enum": [
-                "commercial",
-                "PTAX"
-              ]
-            }
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
           },
-          "required": [
-            "name",
-            "spread",
-            "color",
-            "rate"
-          ]
-        }
-      ]
+          "spread": {
+            "type": "number",
+            "minimum": 0
+          },
+          "spreadOtherMoney": {
+            "type": "number",
+            "minimum": 0
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}[0-9A-Fa-f]{0,2}$"
+          },
+          "brands": {
+            "type": "string"
+          },
+          "receivesInMoney": {
+            "type": "string",
+            "enum": [
+              "USD",
+              "ORIGIN"
+            ]
+          },
+          "text-color": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}[0-9A-Fa-f]{0,2}$"
+          },
+          "rate": {
+            "type": "string",
+            "enum": [
+              "commercial",
+              "PTAX"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "spread",
+          "color",
+          "rate"
+        ]
+      }
     }
   },
   "required": [
